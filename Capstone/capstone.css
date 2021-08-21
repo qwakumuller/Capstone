@@ -1,10 +1,14 @@
-body {background-image: url('logo.jpg'); color: black;}
-h1 { background-body:brown; color:orange;
-      font-family:Arial;}
+body { color:navy;
+   } 
 
-h2 { color: orange;}
 
-footer { margin-left: 200px;
+
+h1 { background-body:green; color:darkorange;
+      font-family:"Verdana" sans-serif;}
+
+h2 { color:darkorange;}
+
+footer {
 		 "position: fixed;
 		 bottom: 0;
 		 left: 0;
@@ -13,51 +17,31 @@ footer { margin-left: 200px;
 
 }
 
-	
 
-p {color:black;
-    font-family:"Times New Roman";}
-a:link{background-color:white; color: #330d00;}
+p {color:navy;
+    font-family:"Verdana" sans-serif;}
+a:link{background-color:; color:white;}
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 15%;
-  background-color: #e64d19;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
-}
 
-li a {
-  display: block;
-  background-color: #e64d19;
-  padding: 8px 16px;
-  text-decoration: none;
-}
-
-li a.active {
-  background-color: #4CAF50;
-  color: #e64d19;
-}
 
 
 
 .main {
-  margin-left: 200px;
+  margin-left: 100px;
+   margin-top: 80px;
   font-size: 15px;
   font-weight:bold;
   padding: 0px 10px;
   
 }
-#home { background-color: #e64d19;}
 
 #about{
 	margin-left: 20px;
     font-size: 20px;
 	font-weight: bold;
-    padding-bottom:100px;	
+    padding-bottom:100px;
+	opacity: 85%;
+	height: 35px;
 }
 
 .wrap-collabsible {
@@ -79,8 +63,8 @@ input[type='checkbox'] {
 
   padding: 1rem;
 
-  color: #e64d19;
-  background: #FAE042;
+  color:navy;
+  background:cornflowerblue;
 
   cursor: pointer;
 
@@ -89,7 +73,7 @@ input[type='checkbox'] {
 }
 
 .lbl-toggle:hover {
-  color: #7C5A0B;
+  color: lightsalmon;
 }
 
 .lbl-toggle::before {
@@ -132,3 +116,73 @@ input[type='checkbox'] {
   border-bottom-right-radius: 7px;
   padding: .5rem 1rem;
 }
+
+#welcome {
+	marrgin-left: 300px;
+	margin-top: 80px;
+	text-align: center;
+	font-weight: bold;
+  
+}
+
+#wrapper {
+	width:100%
+}
+
+
+#product { 
+	font-weight: bold;
+	margin-top: 80px;
+}
+
+#addProduct{
+	margin-top: 80px;
+}
+
+#update {
+	margin-top: 80px;
+}
+
+
+#mains {
+	margin-left: 0px;
+   margin-top: 80px;
+  font-size: 15px;
+  font-weight:bold;
+  padding: 0px 10px;
+  
+}
+
+#hours {
+	background-color:lightsalmon;
+	opacity: 85%;
+	width: 8%;
+	
+		
+		
+}
+
+#show {
+	background-color:cornflowerblue;
+	margin-top:100px;
+	width: 60%;
+}
+
+#time { margin-top: 10px;
+}
+
+img {max-width: 8%;
+     max-height: 8%;
+      float: left;
+}
+
+
+
+
+#link{
+  color: black;
+
+
+}
+
+
